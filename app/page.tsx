@@ -1,6 +1,8 @@
 import Image from "next/image"
 import KosharyCode from './images/Koshary_code.png';
 import CodeGenerator from "@/components/CodeGenerator"
+import { Analytics } from "@vercel/analytics/react"
+
 
 export default function Home() {
   return (
@@ -14,6 +16,7 @@ export default function Home() {
         priority
       />
       <CodeGenerator />
+      <Analytics />
     </main>
   )
 }

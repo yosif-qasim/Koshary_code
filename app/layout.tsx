@@ -5,8 +5,8 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Code Generator",
-  description: "Generate code snippets with Groq API",
+  title: "Koshary Code",
+  description: "learn secure code review with Ai genereated code",
 }
 
 export default function RootLayout({
