@@ -1,7 +1,6 @@
 "use server"
 
 import Groq from "groq-sdk"
-import { XMLParser } from "fast-xml-parser"
 import{ system_prompt , GetUserPrompt} from '../prompts/prompts';
 
 const groq = new Groq({
