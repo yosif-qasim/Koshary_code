@@ -12,7 +12,7 @@ export default function InputForm({ onSubmit, isLoading }: InputFormProps) {
   return (
     <form action={onSubmit} className="space-y-4">
             <div className=" font-mono italic text-center text-lg text-zinc-500	">
-            <p>learn secure code review with Ai genereated code </p>
+            <p>learn secure code review with Ai generated code </p>
             </div>
       <div className="flex flex-wrap items-end gap-2">
         <div className="flex-1 min-w-[120px]">
